@@ -4,16 +4,229 @@
 
 
 //////HOME PAGE SLIDESHOW//////
-.header_image{
-	width:100%;
-	height:100%;
+// .header_image{
+// 	width:100%;
+// 	height:100%;
 
+// }
+
+
+// .header_image img{
+// 	top:0;
+// 	left:0;
+// 	max-width: 100%;
+// 	object-fit:cover;
+// }
+
+
+
+// general stuff///////////////
+.app{
 }
 
-
-.header_image img{
+.logo{
+	position: absolute;
 	top:0;
-	left:0;
-	max-width: 100%;
-	object-fit:cover;
+	right:0;
+	z-index:999;
 }
+
+.logo img{
+	width:200px;
+}
+
+// NAV BAR////////////////////
+
+nav{
+
+
+}
+
+.navigation{
+	// display:flex;
+	// flex-direction:row;
+	// justify-content:space-around;
+	padding-top:20px;
+	margin-top:0;
+	list-style:none;
+    background: #111;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.navigation li{
+	margin-bottom: 20px;
+}
+
+.navigation a{
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+}
+
+.navigation a:hover{
+	color:gray;
+}
+
+
+.site-wrap {
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #fff;
+    position: relative;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+
+}
+
+
+.nav-trigger {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+
+label[for="nav-trigger"] {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url("http://www.tax-consulting-group-san-diego.com/images/taxes-menu-icon.png");
+    background-size: contain;
+}
+
+
+.nav-trigger:checked + label {
+    left: 215px;
+}
+
+
+.nav-trigger:checked ~ .site-wrap {
+    left: 200px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
+
+
+.nav-trigger + label, .site-wrap {
+    transition: left 0.2s;
+}
+
+
+
+
+// slideshow two/////////////////
+
+
+#img-grp-wrap {
+    position: relative;
+ 	
+}
+
+.img-wrapper {
+    position: absolute;
+}
+
+.img-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+   width:100vw;
+    height:100vh;
+    object-fit:cover;
+
+    
+}
+
+.next, .prev {
+    position: absolute;
+    cursor: pointer;
+    top: 350px;
+
+}
+
+.next {
+    right: 0;
+    border: 1px solid red;
+}
+
+.prev {
+    left: 0;
+    border: 1px solid red;
+}
+
+
+
+
+
+
+// ABOUT PAGE////////////////
+
+
+
+.about-wrapper{
+	background-color: #2D262D;
+	height: 100vh;
+	position:relative;
+}
+
+
+
+.about-wrapper h4{
+	position: absolute;
+	width:200px;
+	margin:auto;
+}
+
+
+.about{
+	display: flex;
+	justify-content:center;
+	flex-direction:row;
+	align-content:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
