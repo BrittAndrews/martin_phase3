@@ -25,10 +25,13 @@
 }
 
 .logo{
-	position: absolute;
+	position: fixed;
 	top:0;
 	right:0;
 	z-index:999;
+	padding-right: 18px;
+	padding-top: 18px;
+
 }
 
 .logo img{
@@ -174,57 +177,167 @@ label[for="nav-trigger"] {
 
 
 
-.about-wrapper{
-	background-color: #2D262D;
-	height: 100vh;
+#wrapper_about{
+
+	height:100%;
+	width:100%;
+	background-color: white;
+	// border-bottom: 2px solid purple;
+	
+}
+
+
+
+.about1{
+	font-family: helvetica;
+	// position:absolute;
+	padding-top: 150px;
+	display:flex;
+	margin-left:300px;
+	margin-right:300px;
+	padding-bottom: 100px;
+
+	
+}
+
+
+.martin-headshot {
+	width:300px;
+	height:300px;
+	object-fit:cover;
+	margin-right:20px;
+
+}
+
+
+.about1 p{
+	color:black;
+	font-size:20px;
+	text-align: justify;
+	line-height: 120%;
 	position:relative;
 }
 
 
-
-.about-wrapper h4{
-	position: absolute;
-	width:200px;
-	margin:auto;
+.about1 span{
+	padding-bottom:20px;
+	color:black;
+	font-size:50px;
+	font-family: 'Lobster', cursive;
+	line-height: 10%;
+	position:absolute;
+	right:0;
 }
 
 
-.about{
-	display: flex;
+
+
+.take-a-tour{
+	display:flex;
 	justify-content:center;
-	flex-direction:row;
-	align-content:center;
+	padding-bottom:50px;
+
 }
 
 
 
+.take-a-tour-link{
+	text-decoration: none;
+	font-family: helvetica;
+	letter-spacing: 2px;
+	color:black;
+	font-size: 30px;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	padding:30px;
+	padding-left:45px;
+	padding-right:45px;
+
+}
+
+.take-a-tour-link:hover{
+	color:green;
+
+}
+
+.about2{
+	top: 150px;
+	display:flex;
+	margin-left:300px;
+	margin-right:300px;
+	padding-bottom: 50px;
+
+}
+
+.about2 p{
+	font-family: helvetica;
+	text-align: justify;
+	font-size: 20px;
+
+}
 
 
 
+.whatpeoplearesaying1{
+	display:flex;
+	justify-content:center;
+	padding-top:20px;
+	margin-left:300px;
+	margin-right:300px;
+
+}
 
 
 
+.about-image-of-descript-1{
+	width: 400px;
+	height:100%;
+	padding-right: 20px;
+
+}
 
 
 
+.description1{
+	padding-top:100px;
+	font-family: 'Lobster', cursive;
+	font-size: 25px;
+
+}
 
 
 
+.description1 a{
+	font-family: helvetica;
+	text-decoration: none;
+	color:black;
+
+}
+
+.description1 a:hover{
+	text-decoration: none;
+	color:blue;
+
+}
 
 
 
+.about3{
+	top: 150px;
+	display:flex;
+	margin-left:300px;
+	margin-right:300px;
+	padding-top: 50px;
+	padding-bottom: 100px;
 
+}
 
+.about3 p{
+	font-family: helvetica;
+	text-align: justify;
+	font-size: 20px;
 
-
-
-
-
-
-
-
-
-
+}
 
 
 
