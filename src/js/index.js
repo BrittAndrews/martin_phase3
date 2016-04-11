@@ -18,7 +18,7 @@ import $ from "jquery";
 
 
 
-//SLIDESHOW////////////////////
+//SLIDESHOW homepage////////////////////
 
 $('.img-wrapper img:gt(0)').hide();
 
@@ -31,3 +31,33 @@ $('.prev').click(function() {
     $('.img-wrapper img:last-child').prependTo('.img-wrapper').fadeOut();
     $('.img-wrapper img:first-child').fadeIn();
 });
+
+
+
+
+
+// about page functionality /////////////////////////
+
+// $('.about img:gt(0)').hide();
+
+// $('.down').click(function() {
+//     $('.about img:first-child').fadeOut().next().fadeIn().end().appendTo('.about');
+// });
+
+// $('.up').click(function() {
+//     $('.about img:first-child').fadeOut();
+//     $('.about img:last-child').prependTo('.about').fadeOut();
+//     $('.about img:first-child').fadeIn();
+// });
+
+
+
+
+
+
+
+
+
+
+
+
